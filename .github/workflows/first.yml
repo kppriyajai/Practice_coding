@@ -1,6 +1,7 @@
 name: Run Bash Script
 
-on: [push]
+on: 
+  push
 
 jobs:
   run-bash-script:
@@ -11,4 +12,4 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Run the bash script
-      run: ./.github/scripts/my-script.sh
+      run: ./.github/workflows/scripts/my-script.sh
