@@ -14,5 +14,5 @@ jobs:
     - name: Run the bash script
       run: |
         pwd
-        cd scripts
+        cd .github/workflows/scripts
         sudo bash my-script.sh
